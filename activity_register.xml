@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    android:layout_width="match_parent"
+    android:background="@drawable/fruit">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Password:"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="18dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="18dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LastName:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="18dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:id="@+id/blinkReg"
+        android:text="Register Data"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bShow"
+        android:text="Show Data"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
